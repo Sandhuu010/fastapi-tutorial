@@ -122,7 +122,7 @@ async def get_students(
 @app.get("/search/")
 async def get_search(
     keyboard:str = None,
-    page: int = 1
+    page: int = 2
 ):
     return {
         "keyboard" : keyboard,
